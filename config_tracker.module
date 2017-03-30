@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * Contains config_tracker.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function config_tracker_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the config_tracker module.
+    case 'help.page.config_tracker':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Track config changes.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function config_tracker_theme() {
+  return [
+    'config_tracker' => [
+      'template' => 'config_tracker',
+      'render element' => 'children',
+    ],
+  ];
+}

@@ -1,0 +1,27 @@
+# Tracker entity routing definition
+tracker_entity.settings_tab:
+  route_name: tracker_entity.settings
+  title: 'Settings'
+  base_route: tracker_entity.settings
+
+entity.tracker_entity.canonical:
+  route_name: entity.tracker_entity.canonical
+  base_route: entity.tracker_entity.canonical
+  title: 'View'
+
+entity.tracker_entity.edit_form:
+  route_name: entity.tracker_entity.edit_form
+  base_route: entity.tracker_entity.canonical
+  title: 'Edit'
+
+entity.tracker_entity.version_history:
+  route_name: entity.tracker_entity.version_history
+  base_route: entity.tracker_entity.canonical
+  title: 'Revisions'
+
+entity.tracker_entity.delete_form:
+  route_name:  entity.tracker_entity.delete_form
+  base_route:  entity.tracker_entity.canonical
+  title: Delete
+  weight: 10
+

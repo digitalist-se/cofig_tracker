@@ -1,0 +1,5 @@
+name: Config Tracker
+type: module
+description: Track config changes.
+core: 8.x
+package: Configuration

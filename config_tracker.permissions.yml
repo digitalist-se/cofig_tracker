@@ -1,0 +1,33 @@
+add tracker entity entities:
+  title: 'Create new Tracker entity entities'
+
+administer tracker entity entities:
+  title: 'Administer Tracker entity entities'
+  description: 'Allow to access the administration form to configure Tracker entity entities.'
+  restrict access: true
+
+delete tracker entity entities:
+  title: 'Delete Tracker entity entities'
+
+edit tracker entity entities:
+  title: 'Edit Tracker entity entities'
+
+access tracker entity overview:
+  title: 'Access the Tracker entity overview page'
+
+view published tracker entity entities:
+  title: 'View published Tracker entity entities'
+
+view unpublished tracker entity entities:
+  title: 'View unpublished Tracker entity entities'
+
+view all tracker entity revisions:
+  title: 'View all Tracker entity revisions'
+
+revert all tracker entity revisions:
+  title: 'Revert all Tracker entity revisions'
+  description: 'Role requires permission <em>view Tracker entity revisions</em> and <em>edit rights</em> for tracker entity entities in question or <em>administer tracker entity entities</em>.'
+
+delete all tracker entity revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Tracker entity revisions</em> and <em>delete rights</em> for tracker entity entities in question or <em>administer tracker entity entities</em>.'

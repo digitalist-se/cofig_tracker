@@ -1,0 +1,5 @@
+entity.tracker_entity.add_form:
+  route_name: entity.tracker_entity.add_form
+  title: 'Add Tracker entity'
+  appears_on:
+    - entity.tracker_entity.collection

@@ -1,0 +1,7 @@
+services:
+  config_tracker.default:
+    class: Drupal\config_tracker\EventSubscriber\ConfigSubscriber
+    arguments: []
+    tags:
+      - { name: event_subscriber }
+

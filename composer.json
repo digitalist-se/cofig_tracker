@@ -1,0 +1,14 @@
+{
+  "name": "drupal/config_tracker",
+  "type": "drupal-module",
+  "description": "Track config changes.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/config_tracker",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/config_tracker",
+    "source": "http://cgit.drupalcode.org/config_tracker"
+  },
+  "require": { }
+}

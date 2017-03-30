@@ -1,0 +1,14 @@
+
+# Tracker entity menu items definition
+entity.tracker_entity.collection:
+  title: 'Tracker entity list'
+  route_name: entity.tracker_entity.collection
+  description: 'List Tracker entity entities'
+  parent: system.admin_structure
+  weight: 100
+
+tracker_entity.admin.structure.settings:
+  title: Tracker entity settings
+  description: 'Configure Tracker entity entities'
+  route_name: tracker_entity.settings
+  parent: system.admin_structure
